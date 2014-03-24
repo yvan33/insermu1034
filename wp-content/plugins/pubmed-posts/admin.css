@@ -1,0 +1,155 @@
+/**
+ * Admin stylesheet for "PubMed Posts" Wordpress plugin
+ */
+ 
+/* Dashboard Widget */
+
+#pubmed-dashboard .pubmed-icon-small {
+	background: url('images/pubmed_icon16.png') no-repeat;
+	padding-left: 20px;
+}
+ 
+#pubmed-dashboard .pubmed-row {
+	margin-bottom: 10px;
+}
+
+#pubmed-dashboard .pubmed-text {
+	border-radius: 3px;
+	border-color: #ccc;
+	margin: 0;
+	padding: 6px;
+	width: 100%;
+}
+
+#pubmed-dashboard .pubmed-text:hover {
+	border-color: #999;
+}
+
+#pubmed-dashboard #pubmed-pmid {
+	color: #bbb;
+}
+
+#pubmed-dashboard .pubmed-buttons {
+	margin: 10px 0 0 0; 
+}
+
+#pubmed-dashboard .pubmed-draft {
+	margin: 0 10px 0 0;
+}
+
+#pubmed-dashboard .pubmed-publish {
+	float: right;
+}
+
+#pubmed-dashboard .pubmed-waiting {
+	float: right;
+	margin: 5px 10px 0 0;
+	display: none;
+}
+
+#pubmed-dashboard .pubmed-message {
+	background-color: #ffffe0;
+	border: 1px solid #e6db55;
+	display: none;
+	margin: 10px 0;
+	padding: 7px;
+}
+
+#pubmed-dashboard .pubmed-message p {
+	margin: 0;
+}
+
+#pubmed-dashboard .pubmed-none {
+	color: #bbb;
+}
+
+#pubmed-dashboard .ui-state-default {
+	background: #fff;
+	font: inherit;
+}
+
+#pubmed-dashboard .ui-state-default .ui-icon-triangle-2-n-s {
+	background: url('textext/css/arrow.png') no-repeat;
+	height: 14px;
+	margin-top: 2px;
+	width: 15px;
+}
+
+/* Settings Page */
+
+#pubmed-settings #pubmed-icon {
+	background: url('images/pubmed_icon32.png') no-repeat;
+	height: 32px;
+	width: 32px;
+}
+
+#pubmed-settings #pubmed-template {
+	height: 200px;
+	width: 100%;
+}
+
+/* MultiSelect Plugin */
+
+.ui-multiselect {
+	width: 100% !important;
+	padding: 5px;
+}
+
+.ui-multiselect-header {
+	padding: 6px 0 0 4px;
+}
+
+.ui-multiselect-checkboxes li {
+	margin-bottom: 0;
+}
+
+.ui-multiselect-checkboxes label input {
+	margin-right: 5px;
+}
+
+.ui-multiselect-checkboxes li.pubmed-indent1 {
+	margin-left: 13px;
+}
+
+.ui-multiselect-checkboxes li.pubmed-indent2 {
+	margin-left: 26px;
+}
+
+.ui-multiselect-checkboxes li.pubmed-indent3 {
+	margin-left: 39px;
+}
+
+.ui-multiselect-checkboxes li.pubmed-indent4 {
+	margin-left: 52px;
+}
+
+.ui-multiselect-checkboxes li.pubmed-indent5 {
+	margin-left: 65px;
+}
+
+/* TextExt Plugin */
+
+#pubmed-dashboard .text-core .text-wrap textarea, 
+#pubmed-dashboard .text-core .text-wrap input,
+#pubmed-dashboard .text-core .text-wrap .text-prompt {
+	font: inherit;
+}
+
+#pubmed-dashboard .text-core .text-wrap .text-tags .text-tag {
+	margin: 1px 0 0 1px;
+}
+
+#pubmed-dashboard .text-core .text-wrap .text-tags .text-tag .text-button {
+	border-radius: 3px;
+	height: 20px;
+	padding: 2px 17px 4px 4px
+}
+
+#pubmed-dashboard .text-core .text-wrap .text-tags .text-tag .text-button a.text-remove {
+	top: 4px;
+}
+
+#pubmed-dashboard .text-core .text-wrap .text-arrow {
+	height: 32px;
+	width: 32px;
+}

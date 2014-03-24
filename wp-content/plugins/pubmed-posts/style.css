@@ -1,0 +1,109 @@
+/**
+ * Front stylesheet for "PubMed Posts" Wordpress plugin
+ */
+ 
+div.pubmed-widget {
+	overflow: visible;
+} 
+ 
+div.pubmed-fields div {
+	margin-bottom: 5px;
+}
+
+div.pubmed-fields label {
+	display: inline-block;
+	margin: 0 0 5px 0;
+}
+
+div.pubmed-fields label.pubmed-boolean {
+	float: right;
+	padding-right: 20px;
+}
+
+div.pubmed-fields label.pubmed-question {
+	background: url('images/question_white.png') right no-repeat;
+}
+
+div.pubmed-fields label.pubmed-tick {
+	background: url('images/tick_white.png') right no-repeat;
+}
+
+div.pubmed-fields label.pubmed-cross {
+	background: url('images/cross_white.png') right no-repeat;
+}
+
+div.pubmed-fields input,
+div.pubmed-fields textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+select.pubmed-boolean {
+	float: right;
+	width: 60px;
+}
+
+div.pubmed-controls {
+	margin-top: 10px;
+	overflow: hidden;
+	position: relative;
+}
+
+div.pubmed-controls span {
+	cursor: pointer;
+	line-height: 16px;
+	margin: -8px 0 0 0;
+	padding: 0 0 0 16px;
+	position: absolute;
+	top: 50%;
+}
+
+span.pubmed-hide-advanced {
+	background: url('images/minus.png') no-repeat;
+}
+
+span.pubmed-show-advanced {
+	background: url('images/plus.png') no-repeat;
+}
+
+div.pubmed-buttons {
+	float: right;
+}
+
+div.pubmed-controls input.search-submit {
+	margin: 0 0 0 5px;
+	min-width: 60px;
+}
+
+.pubmed-hide {
+	display: none;
+}
+
+/* TextExt Plugin */
+
+div.pubmed-fields .text-core .text-wrap textarea, 
+div.pubmed-fields .text-core .text-wrap input,
+div.pubmed-fields .text-core .text-wrap .text-prompt {
+	font: inherit;
+}
+
+div.pubmed-fields .text-core .text-wrap .text-tags .text-tag {
+	margin: 1px 0 0 1px;
+}
+
+div.pubmed-fields .text-core .text-wrap .text-tags .text-tag .text-button {
+	border-radius: 3px;
+	height: 20px;
+	padding: 2px 17px 4px 4px
+}
+
+div.pubmed-fields .text-core .text-wrap .text-tags .text-tag .text-button a.text-remove {
+	top: 4px;
+}
+
+div.pubmed-fields .text-core .text-wrap .text-arrow {
+	height: 32px;
+	width: 32px;
+}

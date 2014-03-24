@@ -1,0 +1,254 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PubMed\n"
+"POT-Creation-Date: 2013-12-11 13:42+1000\n"
+"PO-Revision-Date: 2013-12-11 13:42+1000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../class-search.php:14
+msgid "A search form for PubMed posts"
+msgstr ""
+
+#: ../class-search.php:15
+msgid "PubMed Posts Search"
+msgstr ""
+
+#: ../class-search.php:79
+msgid "Article Abstract"
+msgstr ""
+
+#: ../class-search.php:83
+msgid "Article Affiliation"
+msgstr ""
+
+#: ../class-search.php:87
+msgid "Article Authors"
+msgstr ""
+
+#: ../class-search.php:91
+msgid "Article Title"
+msgstr ""
+
+#: ../class-search.php:95
+msgid "Journal Title"
+msgstr ""
+
+#: ../class-search.php:99
+msgid "Journal Volume"
+msgstr ""
+
+#: ../class-search.php:103
+msgid "Journal Year"
+msgstr ""
+
+#: ../class-search.php:107
+msgid "PMID"
+msgstr ""
+
+#: ../class-search.php:112 ../class-search.php:117 ../class-search.php:122
+msgid "Tags"
+msgstr ""
+
+#: ../class-search.php:113
+msgid "OR"
+msgstr ""
+
+#: ../class-search.php:118
+msgid "AND"
+msgstr ""
+
+#: ../class-search.php:123
+msgid "NOT"
+msgstr ""
+
+#: ../class-search.php:130
+msgid "Advanced"
+msgstr ""
+
+#: ../class-search.php:131
+msgid "Hide"
+msgstr ""
+
+#: ../class-search.php:134 ../template-dashboard.php:27
+msgid "Reset"
+msgstr ""
+
+#: ../class-search.php:136
+msgid "Search"
+msgstr ""
+
+#: ../class-search.php:151
+msgid "Title"
+msgstr ""
+
+#: ../class-search.php:157
+msgid "Show advanced search"
+msgstr ""
+
+#: ../class-search.php:162
+msgid "Hide reset button"
+msgstr ""
+
+#: ../pubmed-posts.php:138 ../pubmed-posts.php:216
+msgid "Tags (press enter to select)"
+msgstr ""
+
+#: ../pubmed-posts.php:213 ../template-dashboard.php:15
+msgid "PMIDs (separate with commas)"
+msgstr ""
+
+#: ../pubmed-posts.php:214
+msgid "Categories (# of # selected)"
+msgstr ""
+
+#: ../pubmed-posts.php:215
+msgid "Categories"
+msgstr ""
+
+#: ../pubmed-posts.php:260 ../pubmed-posts.php:666
+msgid "PubMed Posts"
+msgstr ""
+
+#: ../pubmed-posts.php:298
+msgid "Security check failed"
+msgstr ""
+
+#: ../pubmed-posts.php:318
+msgid "Invalid identifier"
+msgstr ""
+
+#: ../pubmed-posts.php:420
+msgid "Post already exists"
+msgstr ""
+
+#: ../pubmed-posts.php:427
+msgid "Article not found"
+msgstr ""
+
+#: ../pubmed-posts.php:480
+msgid "Failed to update post"
+msgstr ""
+
+#: ../pubmed-posts.php:497
+msgid "View post"
+msgstr ""
+
+#: ../pubmed-posts.php:498
+msgid "Edit post"
+msgstr ""
+
+#: ../pubmed-posts.php:501
+msgid "Post draft created"
+msgstr ""
+
+#: ../pubmed-posts.php:503
+msgid "Post draft updated"
+msgstr ""
+
+#: ../pubmed-posts.php:507
+msgid "Post published"
+msgstr ""
+
+#: ../pubmed-posts.php:509
+msgid "Post updated"
+msgstr ""
+
+#: ../pubmed-posts.php:665 ../template-settings.php:14
+msgid "PubMed Posts Settings"
+msgstr ""
+
+#: ../pubmed-posts.php:679
+msgid "You do not have sufficient permissions to access this page"
+msgstr ""
+
+#: ../pubmed-posts.php:691
+msgid "Update Post"
+msgstr ""
+
+#: ../pubmed-posts.php:698
+msgid "Replace Taxonomy"
+msgstr ""
+
+#: ../pubmed-posts.php:705
+msgid "Post Author"
+msgstr ""
+
+#: ../pubmed-posts.php:712
+msgid "Post Date"
+msgstr ""
+
+#: ../pubmed-posts.php:719
+msgid "Post Template"
+msgstr ""
+
+#: ../pubmed-posts.php:735
+msgid "Update existing post"
+msgstr ""
+
+#: ../pubmed-posts.php:736
+msgid "Content and custom fields will be updated if post exists"
+msgstr ""
+
+#: ../pubmed-posts.php:749
+msgid "Replace post taxonomy"
+msgstr ""
+
+#: ../pubmed-posts.php:750
+msgid "New categories and tags will replace existing ones for post"
+msgstr ""
+
+#: ../pubmed-posts.php:763
+msgid "Show article authors"
+msgstr ""
+
+#: ../pubmed-posts.php:764
+msgid "All posts will show the article authors instead of post author"
+msgstr ""
+
+#: ../pubmed-posts.php:777
+msgid "Today"
+msgstr ""
+
+#: ../pubmed-posts.php:778
+msgid "Article Published"
+msgstr ""
+
+#: ../pubmed-posts.php:779
+msgid "Journal Published"
+msgstr ""
+
+#: ../pubmed-posts.php:780
+msgid "PubMed Record Created"
+msgstr ""
+
+#: ../pubmed-posts.php:781
+msgid "PubMed Record Completed"
+msgstr ""
+
+#: ../pubmed-posts.php:782
+msgid "PubMed Record Revised"
+msgstr ""
+
+#: ../pubmed-posts.php:784
+msgid "New posts will be set to this date"
+msgstr ""
+
+#: ../pubmed-posts.php:797
+msgid "Create a template for new posts using HTML and the following tags"
+msgstr ""
+
+#: ../template-dashboard.php:26
+msgid "Save Draft"
+msgstr ""
+
+#: ../template-dashboard.php:28
+msgid "Publish"
+msgstr ""
